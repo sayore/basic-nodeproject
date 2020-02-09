@@ -13,8 +13,7 @@ The codebase is completly empty. Except for a basic pug-html5 Template in the vi
 
 ## Important Notes
 
-- The files are all in the same directory tree as in th original directories
-- Sass files go into public
-- Pug files go into views
-- JS files go into src
-- nodeJS files.. well i think i got a step ahead. These need a new directory as well :shrug: Coming Soon(TM)
+- The files are all in the same directory tree as in the original directory tree is laid out.
+  - The expection here is that all public files go into a subdirectory of dist called **rendered**.
+- Sass, Pug, JS files go into public => The result will be in dist/rendered.
+- NodeJS files go into src => The result will be in dist.
