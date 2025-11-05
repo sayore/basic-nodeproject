@@ -12,8 +12,8 @@ dependencies:
     specifier: ^7.8.4
     version: 7.8.4(@babel/core@7.8.4)
   '@babel/runtime':
-    specifier: ^7.8.4
-    version: 7.8.4
+    specifier: ^7.26.10
+    version: 7.26.10
   gulp-babel:
     specifier: ^8.0.0
     version: 8.0.0(@babel/core@7.8.4)
@@ -892,10 +892,11 @@ packages:
       - supports-color
     dev: false
 
-  /@babel/runtime@7.8.4:
-    resolution: {integrity: sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==}
+  /@babel/runtime@7.26.10:
+    resolution: {integrity: sha512-2WJMeRQPHKSPemqk/awGrAiuFfzBmOIPXKizAsVhWH9YJqLZ0H+HS4c8loHGgW6utJ3E/ejXQUsiGaQy2NZ9Fw==}
+    engines: {node: '>=6.9.0'}
     dependencies:
-      regenerator-runtime: 0.13.3
+      regenerator-runtime: 0.14.1
     dev: false
 
   /@babel/template@7.22.15:
@@ -2543,8 +2544,8 @@ packages:
     resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
     dev: true
 
-  /regenerator-runtime@0.13.3:
-    resolution: {integrity: sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==}
+  /regenerator-runtime@0.14.1:
+    resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
     dev: false
 
   /regenerator-transform@0.14.1:
